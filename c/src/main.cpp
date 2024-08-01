@@ -278,7 +278,7 @@ int main(int argc, char *argv[]) {
                 } else if (e.key.keysym.sym == SDLK_c) {
                     //colorize = true;
                 } else if (e.key.keysym.sym == SDLK_s) {
-                    start = true;
+                    start = !start;
                 } else {
                     quit = true;
                 }
